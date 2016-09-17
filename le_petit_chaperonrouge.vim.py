@@ -24,7 +24,7 @@ def main():
     negative_light = "#ffffff"
 
     # Normal texts.
-    colorscheme = Colorscheme('le_petit_chaperonrouge2')
+    colorscheme = Colorscheme('le_petit_chaperonrouge')
     colorscheme.apply(neutral_dark, neutral_light,
                       ["Normal", "Folded", "FoldColumn", "SignColumn"])
     # Values
