@@ -8,6 +8,8 @@ let g:colors_name = "le_petit_chaperonrouge2"
 
 hi Normal guifg=#c0a0a0 guibg=#362016 gui=NONE ctermbg=181 ctermfg=52 cterm=NONE
 hi Folded guifg=#c0a0a0 guibg=#362016 gui=NONE ctermbg=181 ctermfg=52 cterm=NONE
+hi FoldColumn guifg=#c0a0a0 guibg=#362016 gui=NONE ctermbg=181 ctermfg=52 cterm=NONE
+hi SignColumn guifg=#c0a0a0 guibg=#362016 gui=NONE ctermbg=181 ctermfg=52 cterm=NONE
 hi Constant guifg=#993745 guibg=NONE gui=NONE ctermbg=131 ctermfg=NONE cterm=NONE
 hi Boolean guifg=#993745 guibg=NONE gui=NONE ctermbg=131 ctermfg=NONE cterm=NONE
 hi Float guifg=#993745 guibg=NONE gui=NONE ctermbg=131 ctermfg=NONE cterm=NONE
@@ -41,6 +43,7 @@ hi SpecialChar guifg=#94998a guibg=NONE gui=NONE ctermbg=145 ctermfg=NONE cterm=
 hi Error guifg=#c10138 guibg=NONE gui=NONE ctermbg=161 ctermfg=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#402a20 gui=NONE ctermbg=NONE ctermfg=52 cterm=NONE
 hi LineNr guifg=#7f0906 guibg=NONE gui=NONE ctermbg=88 ctermfg=NONE cterm=NONE
+hi CursorColumn guifg=#c0a0a0 guibg=#362016 gui=NONE ctermbg=181 ctermfg=52 cterm=NONE
 hi CursorLineNr guifg=NONE guibg=#362016 gui=NONE ctermbg=NONE ctermfg=52 cterm=NONE
 hi PMenuSbar guifg=#9f424b guibg=#7f0906 gui=NONE ctermbg=131 ctermfg=88 cterm=NONE
 hi PMenu guifg=#9f424b guibg=#7f0906 gui=NONE ctermbg=131 ctermfg=88 cterm=NONE
@@ -57,4 +60,6 @@ hi DiffDelete guifg=#ffffff guibg=#c10138 gui=NONE ctermbg=231 ctermfg=161 cterm
 hi DiffChange guifg=#806060 guibg=#c0a0a0 gui=NONE ctermbg=138 ctermfg=181 cterm=NONE
 hi DiffText guifg=#806060 guibg=#94998a gui=NONE ctermbg=138 ctermfg=145 cterm=NONE
 hi Directory guifg=#ffffff guibg=NONE gui=NONE ctermbg=231 ctermfg=NONE cterm=NONE
+hi SpellBad guifg=#ffffff guibg=#c10138 gui=NONE ctermbg=231 ctermfg=161 cterm=NONE
+hi SpellCap guifg=#81553d guibg=#c10138 gui=NONE ctermbg=131 ctermfg=161 cterm=NONE
 endif

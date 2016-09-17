@@ -26,7 +26,7 @@ def main():
     # Normal texts.
     colorscheme = Colorscheme('le_petit_chaperonrouge2')
     colorscheme.apply(neutral_dark, neutral_light,
-                      ["Normal", "Folded"])
+                      ["Normal", "Folded", "FoldColumn", "SignColumn"])
     # Values
     colorscheme.apply(None, positive_light,
                       ["Constant", "Boolean", "Float", "Number"])
@@ -64,15 +64,13 @@ def main():
     colorscheme.apply(None, negative_dark, ["Error"])
 
     # UI
-    # Inactive
     colorscheme.apply(add(neutral_dark, all_=10), None, ["CursorLine"])
     colorscheme.apply(None, positive_dark, ["LineNr"])
-    # Active
+    colorscheme.apply(neutral_dark, neutral_light, ["CursorColumn"])
     colorscheme.apply(neutral_dark, None, ["CursorLineNr"])
-    # Menu Inactive
+    # Menu
     colorscheme.apply(positive_dark, positive,
                       ["PMenuSbar", "PMenu", "WildMenu"])
-    # Menu Active
     colorscheme.apply(positive, positive_dark, ["PMenu"])
     # Search
     colorscheme.apply(None, negative, ["Question"])
@@ -87,6 +85,9 @@ def main():
     colorscheme.apply(neutral_light, neutral, ["DiffChange"])
     colorscheme.apply(accent_light, neutral, ["DiffText"])
     colorscheme.apply(None, negative_light, ["Directory"])
+    # Syntax
+    colorscheme.apply(negative_dark, negative_light, ["SpellBad"])
+    colorscheme.apply(negative_dark, negative, ["SpellCap"])
 
 
 def qubic(hexcolor):
