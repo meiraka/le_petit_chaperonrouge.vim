@@ -24,7 +24,7 @@ def main():
     negative_light = "#ffffff"
 
     # Normal texts.
-    colorscheme = Colorscheme('le_petit_chaperonrouge')
+    colorscheme = Colorscheme('le_petit_chaperonrouge', neutral_dark)
     colorscheme.apply(neutral_dark, neutral_light,
                       ["Normal", "Folded", "FoldColumn", "SignColumn"])
     # Values
@@ -128,7 +128,8 @@ def hexcolor_range(x):
 
 
 class Colorscheme(object):
-    def __init__(self, name):
+    def __init__(self, name, background=''):
+        self.background = background
         print("""if v:version >= 700
 if &background ==# 'dark' || &background ==# 'light'
 else
@@ -147,10 +148,14 @@ let g:colors_name = "{colors_name}"
         cb = qubic(background) if not background == "NONE" else "NONE"
         cf = qubic(foreground) if not foreground == "NONE" else "NONE"
         out = ("hi {} guifg={} guibg={} gui={} "
-               "ctermbg={} ctermfg={} cterm={}")
+               "ctermfg={} ctermbg={} cterm={}")
         for label in labels:
-            print(out.format(label, foreground, background, option,
-                             cf, cb, option))
+            if background == self.background:
+                print(out.format(label, foreground, background, option,
+                                 cf, "NONE", option))
+            else:
+                print(out.format(label, foreground, background, option,
+                                 cf, cb, option))
 
 
 if __name__ == '__main__':
