@@ -27,6 +27,7 @@ hi Label guifg=#9f424b guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 hi Exception guifg=#9f424b guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 hi Keyword guifg=#9f424b guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 hi Title guifg=#7f0906 guibg=#993745 gui=NONE ctermfg=88 ctermbg=131 cterm=NONE
+hi SpecialKey guifg=#94998a guibg=NONE gui=NONE ctermfg=145 ctermbg=NONE cterm=NONE
 hi Type guifg=#ffffff guibg=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
 hi StorageClass guifg=#993745 guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#a3414f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE

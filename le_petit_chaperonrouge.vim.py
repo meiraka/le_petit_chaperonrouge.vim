@@ -43,6 +43,7 @@ def main():
                       ["Conditional", "Repeat", "Label", "Exception",
                        "Keyword"])
     colorscheme.apply(positive_light, positive_dark, ["Title"])
+    colorscheme.apply(None, accent_light, ["SpecialKey"])
 
     colorscheme.apply(None, negative_light, ["Type"])
     colorscheme.apply(None, positive_light, ["StorageClass"])
