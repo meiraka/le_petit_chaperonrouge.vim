@@ -27,6 +27,7 @@ def main():
     colorscheme = Colorscheme('le_petit_chaperonrouge', neutral_dark)
     colorscheme.apply(neutral_dark, neutral_light,
                       ["Normal", "Folded", "FoldColumn", "SignColumn"])
+    colorscheme.apply(None, add(neutral_dark, all_=+20), ["NonText"])
     # Values
     colorscheme.apply(None, positive_light,
                       ["Constant", "Boolean", "Float", "Number"])
