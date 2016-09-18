@@ -28,6 +28,7 @@ def main():
     colorscheme.apply(neutral_dark, neutral_light,
                       ["Normal", "Folded", "FoldColumn", "SignColumn"])
     colorscheme.apply(None, add(neutral_dark, all_=+20), ["NonText"])
+    colorscheme.apply(accent_light, neutral_dark, ["Visual"])
     # Values
     colorscheme.apply(None, positive_light,
                       ["Constant", "Boolean", "Float", "Number"])

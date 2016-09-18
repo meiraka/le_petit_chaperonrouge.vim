@@ -11,6 +11,7 @@ hi Folded guifg=#c0a0a0 guibg=#362016 gui=NONE ctermfg=181 ctermbg=NONE cterm=NO
 hi FoldColumn guifg=#c0a0a0 guibg=#362016 gui=NONE ctermfg=181 ctermbg=NONE cterm=NONE
 hi SignColumn guifg=#c0a0a0 guibg=#362016 gui=NONE ctermfg=181 ctermbg=NONE cterm=NONE
 hi NonText guifg=#4a342a guibg=NONE gui=NONE ctermfg=58 ctermbg=NONE cterm=NONE
+hi Visual guifg=#362016 guibg=#94998a gui=NONE ctermfg=52 ctermbg=145 cterm=NONE
 hi Constant guifg=#993745 guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#993745 guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 hi Float guifg=#993745 guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
