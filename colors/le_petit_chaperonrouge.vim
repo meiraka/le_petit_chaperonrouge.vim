@@ -45,6 +45,7 @@ hi Special guifg=#94998a guibg=NONE gui=NONE ctermfg=145 ctermbg=NONE cterm=NONE
 hi SpecialChar guifg=#94998a guibg=NONE gui=NONE ctermfg=145 ctermbg=NONE cterm=NONE
 hi Error guifg=#c10138 guibg=NONE gui=NONE ctermfg=161 ctermbg=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#402a20 gui=NONE ctermfg=NONE ctermbg=52 cterm=NONE
+hi TabLine guifg=#7f0906 guibg=#402a20 gui=NONE ctermfg=88 ctermbg=52 cterm=NONE
 hi LineNr guifg=#7f0906 guibg=NONE gui=NONE ctermfg=88 ctermbg=NONE cterm=NONE
 hi CursorColumn guifg=#c0a0a0 guibg=#362016 gui=NONE ctermfg=181 ctermbg=NONE cterm=NONE
 hi CursorLineNr guifg=NONE guibg=#362016 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE

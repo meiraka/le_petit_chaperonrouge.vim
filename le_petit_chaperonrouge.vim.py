@@ -56,7 +56,6 @@ def main():
     colorscheme.apply(neutral, neutral_light, ["Comment"])
     colorscheme.apply(neutral, neutral_dark, ["SpecialComment"])
     colorscheme.apply(negative_dark, neutral_light, ["Todo"])
-
     # PreProcessor
     colorscheme.apply(None, negative_dark,
                       ["PreProc", "Define", "PreCondit"])
@@ -68,6 +67,7 @@ def main():
 
     # UI
     colorscheme.apply(add(neutral_dark, all_=10), None, ["CursorLine"])
+    colorscheme.apply(add(neutral_dark, all_=10), positive_dark, ["TabLine"])
     colorscheme.apply(None, positive_dark, ["LineNr"])
     colorscheme.apply(neutral_dark, neutral_light, ["CursorColumn"])
     colorscheme.apply(neutral_dark, None, ["CursorLineNr"])
