@@ -47,10 +47,12 @@ hi CursorLine guifg=NONE guibg=#402a20 gui=NONE ctermfg=NONE ctermbg=52 cterm=NO
 hi LineNr guifg=#7f0906 guibg=NONE gui=NONE ctermfg=88 ctermbg=NONE cterm=NONE
 hi CursorColumn guifg=#c0a0a0 guibg=#362016 gui=NONE ctermfg=181 ctermbg=NONE cterm=NONE
 hi CursorLineNr guifg=NONE guibg=#362016 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi PMenuSbar guifg=#9f424b guibg=#7f0906 gui=NONE ctermfg=131 ctermbg=88 cterm=NONE
-hi PMenu guifg=#9f424b guibg=#7f0906 gui=NONE ctermfg=131 ctermbg=88 cterm=NONE
-hi WildMenu guifg=#9f424b guibg=#7f0906 gui=NONE ctermfg=131 ctermbg=88 cterm=NONE
-hi PMenu guifg=#7f0906 guibg=#9f424b gui=NONE ctermfg=88 ctermbg=131 cterm=NONE
+hi PMenuSbar guifg=#362016 guibg=#806060 gui=NONE ctermfg=52 ctermbg=138 cterm=NONE
+hi PMenu guifg=#362016 guibg=#806060 gui=NONE ctermfg=52 ctermbg=138 cterm=NONE
+hi WildMenu guifg=#362016 guibg=#806060 gui=NONE ctermfg=52 ctermbg=138 cterm=NONE
+hi PMenu guifg=#362016 guibg=#806060 gui=NONE ctermfg=52 ctermbg=138 cterm=NONE
+hi PMenuThumb guifg=#806060 guibg=#2c160c gui=NONE ctermfg=138 ctermbg=52 cterm=NONE
+hi PMenuSel guifg=#362016 guibg=#94998a gui=NONE ctermfg=52 ctermbg=145 cterm=NONE
 hi Question guifg=#81553d guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 hi Search guifg=#c0a0a0 guibg=#81553d gui=NONE ctermfg=181 ctermbg=131 cterm=NONE
 hi IncSearch guifg=#c0a0a0 guibg=#81553d gui=NONE ctermfg=181 ctermbg=131 cterm=NONE

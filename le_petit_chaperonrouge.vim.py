@@ -71,9 +71,10 @@ def main():
     colorscheme.apply(neutral_dark, neutral_light, ["CursorColumn"])
     colorscheme.apply(neutral_dark, None, ["CursorLineNr"])
     # Menu
-    colorscheme.apply(positive_dark, positive,
-                      ["PMenuSbar", "PMenu", "WildMenu"])
-    colorscheme.apply(positive, positive_dark, ["PMenu"])
+    colorscheme.apply(neutral, neutral_dark,
+                      ["PMenuSbar", "PMenu", "WildMenu", "PMenu"])
+    colorscheme.apply(add(neutral_dark, all_=-10), neutral, ["PMenuThumb"])
+    colorscheme.apply(accent_light, neutral_dark, ["PMenuSel"])
     # Search
     colorscheme.apply(None, negative, ["Question"])
     colorscheme.apply(negative, neutral_light, ["Search", "IncSearch"])
