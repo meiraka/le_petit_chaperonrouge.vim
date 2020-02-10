@@ -147,19 +147,22 @@ let g:colors_name = "{colors_name}"
         print("""endif""")
 
     def apply(self, background, foreground, labels=None, option="NONE"):
+        if len(labels) == 0:
+            return
         background = background if background else "NONE"
         foreground = foreground if foreground else "NONE"
         cb = qubic(background) if not background == "NONE" else "NONE"
         cf = qubic(foreground) if not foreground == "NONE" else "NONE"
         out = ("hi {} guifg={} guibg={} gui={} "
                "ctermfg={} ctermbg={} cterm={}")
-        for label in labels:
-            if background == self.background:
-                print(out.format(label, foreground, background, option,
-                                 cf, "NONE", option))
-            else:
-                print(out.format(label, foreground, background, option,
-                                 cf, cb, option))
+        if background == self.background:
+            print(out.format(labels[0], foreground, background, option,
+                             cf, "NONE", option))
+        else:
+            print(out.format(labels[0], foreground, background, option,
+                             cf, cb, option))
+        for label in labels[1:]:
+            print("hi! link {} {}".format(label, labels[0]))
 
 
 if __name__ == '__main__':
