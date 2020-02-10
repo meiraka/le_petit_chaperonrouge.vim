@@ -81,8 +81,8 @@ def main():
     colorscheme.apply(negative, neutral_light, ["Search", "IncSearch"])
     # Split bar
     colorscheme.apply(neutral_dark, neutral_dark, ["VertSplit"])
-    colorscheme.apply(None, neutral_dark, ["StatusLineNC"])
-    colorscheme.apply(None, negative_light, ["StatusLine"])
+    colorscheme.apply(None, neutral_dark, ["StatusLineTermNC", "StatusLineNC"])
+    colorscheme.apply(None, negative, ["StatusLineTerm", "StatusLine"])
     # Diff
     colorscheme.apply(accent_light, neutral_dark, ["DiffAdd"])
     colorscheme.apply(negative_dark, negative_light, ["DiffDelete"])

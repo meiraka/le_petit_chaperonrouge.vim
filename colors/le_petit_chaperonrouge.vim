@@ -59,8 +59,10 @@ hi Question guifg=#81553d guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NON
 hi Search guifg=#c0a0a0 guibg=#81553d gui=NONE ctermfg=181 ctermbg=131 cterm=NONE
 hi IncSearch guifg=#c0a0a0 guibg=#81553d gui=NONE ctermfg=181 ctermbg=131 cterm=NONE
 hi VertSplit guifg=#362016 guibg=#362016 gui=NONE ctermfg=52 ctermbg=NONE cterm=NONE
+hi StatusLineTermNC guifg=#362016 guibg=NONE gui=NONE ctermfg=52 ctermbg=NONE cterm=NONE
 hi StatusLineNC guifg=#362016 guibg=NONE gui=NONE ctermfg=52 ctermbg=NONE cterm=NONE
-hi StatusLine guifg=#ffffff guibg=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
+hi StatusLineTerm guifg=#81553d guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
+hi StatusLine guifg=#81553d guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 hi DiffAdd guifg=#362016 guibg=#94998a gui=NONE ctermfg=52 ctermbg=145 cterm=NONE
 hi DiffDelete guifg=#ffffff guibg=#c10138 gui=NONE ctermfg=231 ctermbg=161 cterm=NONE
 hi DiffChange guifg=#806060 guibg=#c0a0a0 gui=NONE ctermfg=138 ctermbg=181 cterm=NONE
